@@ -71,7 +71,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:fontFamily="@font/nanumfont"
+                        android:fontFamily="sans-serif"
                         android:text="수캠"
                         app:backgroundTint="#BFB2C1" />
 
@@ -80,7 +80,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:fontFamily="@font/nanumfont"
+                        android:fontFamily="sans-serif"
                         android:text="운캠"
                         app:backgroundTint="#B4A9B6" />
 
@@ -89,7 +89,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:fontFamily="@font/nanumfont"
+                        android:fontFamily="sans-serif"
                         android:text="대학로"
                         app:backgroundTint="#D9C9DC" />
                 </LinearLayout>
