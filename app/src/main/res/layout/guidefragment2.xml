@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:fontFamily="@font/nanumfont"
         android:lineSpacingExtra="20dp"
         android:text="SungShin_3F는\n집 안,밖에서의\n놀거리 정보를\n제공합니다."
         android:textAllCaps="false"

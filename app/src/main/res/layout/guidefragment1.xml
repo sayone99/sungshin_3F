@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:fontFamily="@font/nanumfont"
         android:lineSpacingExtra="20dp"
         android:text="어서오세요\n수정이들의\n오늘하루를 책임지는 공간,\nSungShin_3F\n오픈합니다."
         android:textAllCaps="false"

@@ -10,6 +10,7 @@
     android:padding="0dp"
     tools:openDrawer="start">
 
+    <!--    바로가기메뉴-->
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -70,6 +71,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:fontFamily="@font/nanumfont"
                         android:text="수캠"
                         app:backgroundTint="#BFB2C1" />
 
@@ -78,6 +80,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:fontFamily="@font/nanumfont"
                         android:text="운캠"
                         app:backgroundTint="#B4A9B6" />
 
@@ -86,6 +89,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:fontFamily="@font/nanumfont"
                         android:text="대학로"
                         app:backgroundTint="#D9C9DC" />
                 </LinearLayout>
@@ -104,7 +108,7 @@
         </FrameLayout>
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
-    <!--    바로가기메뉴-->
+
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigationView"
         android:layout_width="wrap_content"
