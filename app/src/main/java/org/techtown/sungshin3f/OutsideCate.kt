@@ -21,13 +21,12 @@ class OutsideCate : AppCompatActivity() {
         }
         InsideCate2Fbtn.setOnClickListener {
             //일단민영이가 한걸로 연결함
-            val outFood1Intent= Intent(this,OutFood2::class.java)
+            val outFood1Intent= Intent(this,OutFood1::class.java)
             startActivity(outFood1Intent)
         }
         InsideCate3Fbtn.setOnClickListener{
 
         }
-
 
 
         //토글 만드는방법(개발자가 이렇게 쓰라고 한거임 )

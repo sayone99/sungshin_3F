@@ -14,6 +14,35 @@ class OutFood1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_outfood1)
 
+        OutFood1SingleBtn.setOnClickListener {
+//            val intent = Intent(this, outFood3::class.java)
+            startActivityForResult(intent,101)
+
+        } // (혼밥 버튼 클릭시) 화면 전환 소스코드
+
+        OutFood1FlexBtn.setOnClickListener {
+//            val intent = Intent(this, outFood3::class.java)
+            startActivityForResult(intent,101)
+
+        } // (플렉스 버튼 클릭시) 화면 전환 소스코드
+
+        OutFood1ParBtn.setOnClickListener {
+//            val intent = Intent(this, outFood3::class.java)
+            startActivityForResult(intent,101)
+
+        } // (부모님 버튼 클릭시) 화면 전환 소스코드
+
+        OutFood1VegBtn.setOnClickListener {
+//            val intent = Intent(this, outFood3::class.java)
+            startActivityForResult(intent,101)
+
+        } // (부모님 버튼 클릭시) 화면 전환 소스코드
+
+
+
+
+
+
         //토글 만드는방법(개발자가 이렇게 쓰라고 한거임 )
         setSupportActionBar(toolbar)
 
